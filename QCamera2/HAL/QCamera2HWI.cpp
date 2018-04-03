@@ -3170,7 +3170,6 @@ QCameraMemory *QCamera2HardwareInterface::allocateStreamUserBuf(
         }
         video_mem->setVideoInfo(usage, fmt);
         mem = static_cast<QCameraMemory *>(video_mem);
-        mVideoMem = video_mem;
     }
     break;
 
